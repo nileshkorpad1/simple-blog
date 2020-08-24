@@ -53,7 +53,7 @@ $ go run main.go
 
 #### Requirement:
 
-1. go-swagger
+1. Swaggo
 
 #### Documentation
 
@@ -63,15 +63,17 @@ $ go run main.go
    $ swag init -g main.go
 ```
 
+### Demo
+
+[http://localhost:8080/swagger/index.html](http://localhost:8080/swagger/index.html)
+
+
 ## Testing
 
 ```python
    $ go test -v
 ```
 
-### Demo
-
-[http://localhost:8080/swagger/index.html](http://localhost:8080/swagger/index.html)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
