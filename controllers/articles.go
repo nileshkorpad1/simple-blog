@@ -71,12 +71,12 @@ func CreateArticle(response http.ResponseWriter, request *http.Request) {
 //GetArticle : Get article by id
 
 // GetArticle godoc
-// @Summary Get details for a given articleId
+// @Summary Get details of Article for a given id
 // @Description Get details of article corresponding to the input articleId
 // @Tags articles
 // @Accept  json
 // @Produce  json
-// @Param articleId path int true "ID of the article"
+// @Param id path string true "id"
 // @Success 200 {object} models.Article
 // @Router /api/v1/articles/{id} [get]
 // @Failure 400 {string} string "Bad Request"

@@ -27,6 +27,17 @@ func handleRequests() {
 }
 
 // entry point
+
+// @title Articles API
+// @version 1.0
+// @description This is a sample serice for managing Articles
+// @termsOfService http://swagger.io/terms/
+// @contact.name API Support
+// @contact.email nileshkorpad@gmail.com
+// @license.name Apache 2.0
+// @license.url http://www.apache.org/licenses/LICENSE-2.0.html
+// @host localhost:8080
+// @BasePath /
 func main() {
 	// connect db
 
