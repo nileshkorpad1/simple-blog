@@ -59,6 +59,8 @@ $ go run main.go
 
 [https://github.com/swaggo/swag](https://github.com/swaggo/swag)
 
+### Generate swagger.json
+
 ```python
    $ swag init -g main.go
 ```
