@@ -1,0 +1,14 @@
+api:
+  build: ./
+  ports:
+    - 3000:3000
+  volumes:
+    - ./api:/go/src/github.com/nileshkorpad1/simple-blog
+  links:
+    - database
+  environment:
+    - DB_NAME=go-mongo
+
+database:
+  image: mongo:3.0
+  command: mongod --smallfiles --quiet --logpath=/dev/null
